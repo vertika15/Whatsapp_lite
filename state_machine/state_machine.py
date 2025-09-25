@@ -5,7 +5,7 @@ class ChatState(Enum):
     OFFLINE = auto()
     CONNECTING = auto()
     ONLINE = auto()
-    CHATTING = auto()
+    TYPING = auto()
 
 class WhatsAppLiteStateMachine:
     def __init__(self):
@@ -30,7 +30,7 @@ class WhatsAppLiteStateMachine:
     def start_chat(self):
         if self.state == ChatState.ONLINE:
             print("Starting chat...")
-            self.state = ChatState.CHATTING
+            self.state = ChatState.TYPING
         else:
             print("Can't start chat in state:", self.state)
 
