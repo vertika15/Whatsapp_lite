@@ -19,3 +19,23 @@ Frontend – HTML & JavaScript (lightweight and easy to use)
 Realtime Communication – WebSockets / Async message handling
 
 Database – Local or Postgres (for storing messages)
+
+📌 Why I Built This
+
+I wanted a simple chat app that’s easy to understand and build upon. It’s perfect for learning real-time communication, async programming in Python, and creating lightweight apps.
+
+
+▶️ Running the State Machine
+
+To check how the state machine works, run the test script:
+
+python state_machine/test_state_machine.py
+
+💬 Running the Async Chat
+
+To start the async chat server, run the demo:
+
+python async_chat/demo.py
+
+
+
